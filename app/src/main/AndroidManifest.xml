@@ -1,0 +1,112 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.application">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/iconsq"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".OneActivity">
+
+        </activity>
+
+        <activity android:name=".TwoActivity">
+
+        </activity>
+
+        <activity android:name=".ThreeActivity">
+
+        </activity>
+
+        <activity android:name=".FourActivity">
+
+        </activity>
+
+        <activity android:name=".FiveActivity">
+
+        </activity>
+
+        <activity android:name=".SixActivity">
+
+        </activity>
+
+        <activity android:name=".SevenActivity">
+
+        </activity>
+
+        <activity android:name=".EightActivity">
+
+        </activity>
+
+        <activity android:name=".PieskiActivity">
+
+        </activity>
+
+        <activity android:name=".WedelActivity">
+
+        </activity>
+
+        <activity android:name=".JaskierActivity">
+
+        </activity>
+
+        <activity android:name=".PumbaActivity">
+
+        </activity>
+
+        <activity android:name=".GucioActivity">
+
+        </activity>
+
+        <activity android:name=".GeraltActivity">
+
+        </activity>
+
+        <activity android:name=".NygusActivity">
+
+        </activity>
+
+        <activity android:name=".KokiActivity">
+
+        </activity>
+
+        <activity android:name=".BaboActivity">
+
+        </activity>
+
+        <activity android:name=".MissyActivity">
+
+        </activity>
+
+        <activity android:name=".FridaActivity">
+
+        </activity>
+
+        <activity android:name=".BrunoActivity">
+
+        </activity>
+
+        <activity android:name=".BatmanActivity">
+
+        </activity>
+
+        <activity android:name=".RicoActivity">
+
+        </activity>
+
+        <activity android:name=".MisActivity">
+
+        </activity>
+    </application>
+</manifest>

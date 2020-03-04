@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:paddingBottom="40dp">
+
+        <RadioButton
+            android:id="@+id/radio_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_marginLeft="60dp"
+            android:button="@drawable/radiobutton_selector"
+            android:onClick="checkButton"
+            android:paddingLeft="20dp"
+            android:text="Tak, psa"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:fontFamily="@font/bahnschrift_light"/>
+
+        <RadioButton
+            android:id="@+id/radio_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_marginLeft="60dp"
+            android:button="@drawable/radiobutton_selector"
+            android:onClick="checkButton"
+            android:paddingLeft="20dp"
+            android:text="Tak, kota"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:fontFamily="@font/bahnschrift_light"/>
+
+        <RadioButton
+            android:id="@+id/radio_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_marginLeft="60dp"
+            android:button="@drawable/radiobutton_selector"
+            android:onClick="checkButton"
+            android:paddingLeft="20dp"
+            android:text="Nie"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:fontFamily="@font/bahnschrift_light"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/previousImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="45dip"
+        android:layout_marginBottom="20dip"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/bahnschrift_reg"
+        android:text="WRÓĆ"
+        android:textColor="#F6B817"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/nextImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="45dip"
+        android:layout_marginBottom="20dip"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/bahnschrift_reg"
+        android:text="DALEJ"
+        android:textColor="#F6B817"
+        android:textSize="21sp" />
+
+</RelativeLayout>
